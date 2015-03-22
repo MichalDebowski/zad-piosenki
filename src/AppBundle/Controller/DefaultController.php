@@ -542,4 +542,11 @@ public function  SenowarszawieAction()
     {
         return $this->render('default/na-co-komu.html.twig');
     }
+    /**
+     * @Route("/dont-stay.html", name="Dont-Stay")
+     */
+    public function dontstayAction()
+    {
+        return $this->render('default/dont-stay.html.twig');
+    }
 }
