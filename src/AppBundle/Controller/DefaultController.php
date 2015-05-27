@@ -733,6 +733,17 @@ public function  polakwyjatkowyAction()
     }
     
     /*
+     * Stay
+     */
+    /**
+     * @Route("/dont-stay.html", name="dont-stay")
+     */
+    public function dontstayAction()
+    {
+        return $this->render('default/dont-stay.html.twig');
+    }
+    
+    /*
      * ZZ
      */
    /**
